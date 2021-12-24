@@ -6,4 +6,137 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body{
+    background-color: gray;
+}
+
+.main-content{
+    min-height: 1000px;
+    width:90%;
+    margin:20px auto;
+    display:grid;
+    grid-template-columns: 300px  700px;
+}
+
+.left-section{
+    display: grid;
+    grid-column: span 1;
+    background-color: black;
+    color:white;
+    padding:20px;
+}
+
+.profile-details{
+
+}
+
+.profile-image{
+    display: block;
+    margin:auto;
+    padding:1em;
+    justify-content: center;
+    border:5px solid white;
+    border-radius: 30%;
+    width:60%;
+}
+
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .02px;
+    padding:0.8rem;
+}
+
+.designation{
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.description{
+    font-size: .75rem;
+    text-align: center;
+    padding:1rem;
+}
+
+.contact-item{
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+.social-media{
+    display: grid;
+    grid-template-columns:repeat(4,20%);
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
+
+.personal-details{
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+.personal-details li{
+    margin:10px;
+}
+
+.skills-title{
+    font-size: .75rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding:1rem .5rem 1rem .5rem; 
+}
+
+.skill-name{
+    font-size: .65rem;
+    text-align: left;
+    padding-bottom:.5rem;
+}
+
+.progress-bar{
+    border:1px solid white;
+    height:4px;
+    margin-bottom:20px;
+}
+
+.sec{
+    margin:30px;
+}
+
+.para{
+    padding:20px 10px 20px 10px;
+}
+
+
+.right-section{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    display: grid;
+    grid-column: span 1 / span 2;
+    background-color:#fff;
+}
+
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding:.5rem;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:673px){
+    .main-content{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
 /* Write CSS code below */
