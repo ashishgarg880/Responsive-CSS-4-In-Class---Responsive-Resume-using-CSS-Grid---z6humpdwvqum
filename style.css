@@ -20,14 +20,9 @@ body{
 
 .left-section{
     display: grid;
-    grid-column: span 1;
     background-color: black;
     color:white;
-    padding:20px;
-}
-
-.profile-details{
-
+    padding:1rem;
 }
 
 .profile-image{
@@ -37,7 +32,6 @@ body{
     justify-content: center;
     border:5px solid white;
     border-radius: 30%;
-    width:60%;
 }
 
 .name{
@@ -115,6 +109,12 @@ body{
     padding:20px 10px 20px 10px;
 }
 
+.box{
+    display: grid;
+    grid-template-columns:50% 50%;
+    margin:20px 10px;
+    letter-spacing:1px;
+}
 
 .right-section{
     position: relative;
