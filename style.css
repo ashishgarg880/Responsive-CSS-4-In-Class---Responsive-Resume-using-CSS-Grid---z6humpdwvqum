@@ -103,10 +103,6 @@ body{
     margin-bottom:20px;
 }
 
-.sec{
-    margin:30px;
-}
-
 .para{
     padding:20px 10px 20px 10px;
 }
@@ -118,14 +114,17 @@ body{
 }
 
 .right-section{
+    display: grid;   
+    grid-column: span 1 / span 2;
+    background-color:#fff;
+}
+
+.right-main-content{
     position: relative;
     top:0;
     left:0;
     width:100%;
-    display: grid;
-    padding:.5rem;
-    grid-column: span 1 / span 2;
-    background-color:#fff;
+    padding:2rem 3rem;
 }
 
 .right-title{
@@ -133,6 +132,7 @@ body{
     font-size: 1.2rem;
     font-weight: 700;
     letter-spacing: 1px;
+    padding:.5rem;
 }
 
 @media screen and (max-width:673px){
